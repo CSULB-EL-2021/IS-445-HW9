@@ -1,0 +1,10 @@
+{
+  "name": "ex3",
+  "version": "1.0.0",
+  "description": "Ex3",
+  "private": true,
+  "author": "Emile Lepetit <emile.lepetit@gmail.com>",
+  "dependencies": {
+    "moment": "^2.29.3"
+  }
+}

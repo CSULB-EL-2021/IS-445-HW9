@@ -1,0 +1,24 @@
+{
+  "name": "chap25b",
+  "version": "1.0.0",
+  "description": "chap25b",
+  "private": true,
+  "author": "Emile Lepetit <emile.lepetit@gmail.com>",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "nodemonConfig": {
+    "ext": "js,html,css",
+    "ignore": [
+      "node_modules/*",
+      "package.json",
+      "package-lock.json"
+    ]
+  }
+}

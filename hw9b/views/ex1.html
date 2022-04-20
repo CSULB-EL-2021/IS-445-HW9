@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emile's Ex.1</title>
+    <link type="text/css" rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+<h1><a href="/">Link to Start Page</a></h1>
+<h2>Emile's Ex.1</h2>
+
+<hr>
+
+<h1>Sample Form</h1>
+
+<form method="post" action="#" id="form">
+    <div>
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name">
+    </div>
+
+    <div class="mt-4">
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email">
+    </div>
+
+    <div class="mt-4">
+        <label>Payment Types:</label>
+
+        <div>
+            <input type="radio" name="payment" id="cash" value="Cash">
+            <label for="cash">Cash</label>
+        </div>
+        <div>
+            <input type="radio" name="payment" id="credit_card" value="Credit Card">
+            <label for="credit_card">Credit Card</label>
+        </div>
+        <div>
+            <input type="radio" name="payment" id="google_pay" value="Google Pay">
+            <label for="google_pay">Google Pay</label>
+        </div>
+        <div>
+            <input type="radio" name="payment" id="apple_pay" value="Apple Pay">
+            <label for="apple_pay">Apple Pay</label>
+        </div>
+    </div>
+
+    <div class="mt-4">
+        <input type="checkbox" name="promotion" id="promotion"> <label for="promotion">Sign me up for special promotions</label>
+    </div>
+
+    <div class="mt-4">
+        <label for="location">Preferred Locations:</label>
+        <select name="location" id="location">
+            <option value="la">Los Angeles</option>
+            <option value="oc">Orange County</option>
+            <option value="r_side">Riverside</option>
+            <option value="sd">San Diego</option>
+        </select>
+    </div>
+
+    <button type="submit">Submit</button>
+    <button type="reset">Cancel</button>
+</form>
+
+<div class="mt-4" id="result"></div>
+
+<script src="/public/ex1.js"></script>
+</body>
+</html>
